@@ -1,12 +1,12 @@
 {
   "response": [
     {
-     "datetime": 1613985980,
-     "filename": "DerpFest-11-Official-Alpha-sakura-20210222-0850.zip",
-     "id": "339b5157ee50ada75e0e4225622576ac47b81c22b8764ba2671429ba06e22624",
+     "datetime": 1615048127,
+     "filename": "DerpFest-11-Official-Beta-sakura-20210306-1540.zip",
+     "id": "c453e66a0d12f3c2d1fba219e8646396d17c9782ce7f958bb4b3a4cfe4bc8de6",
      "romtype": "Official",
-     "size": 1561118024,
-     "url": "https://tdrive.elytra8.workers.dev/DerpFest-11-Official-Alpha-sakura-20210222-0850.zip",
+     "size": 1591008811,
+     "url": "https://drive.officialmirror.workers.dev/DerpFest-11-Official-Beta-sakura-20210306-1540.zip",
      "version": "11"
     }
   ]
