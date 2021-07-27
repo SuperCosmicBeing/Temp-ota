@@ -1,1 +1,15 @@
-test
+===============
+27 July 2021
+===============
+
+Date: 27 July 2021
+- Added OTA support
+- Camera2 is now default camera
+- Imported OSS Camera hal
+- Make hal switcher titles more user friendly
+- Fixed up some stuff
+
+Bugs:
+- Encryption doesn't work
+- Multi touch misbehaves if 3 finger screenshot enabled
+- Status Bar/QS battery percentage might not show up. A workaround is goto turn off and turn on the screen using power button (not reboot)
