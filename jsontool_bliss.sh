@@ -5,14 +5,13 @@ GREEN="\033[1;32m"
 YELLOW="\033[1;33m"
 NC="\033[0m"
 if [ "$1" ]; then
-    echo "Generating .json"
     file_path=$1
     file_name=$(basename $file_path)
-    device_name=$(echo $file_name | cut -d "-" -f 5)
+    device_name=$(echo $file_name | cut -d "-" -f 3)
     if [ -f $file_path ]; then
         if [[ $file_name == *"Bliss"* ]]; then # only generate for official builds
+            echo -e "${GREEN} Generating $device_name ota json ${NC}"
             file_size=$(stat -c%s $file_path)
-            md5=$(cat "$file_path.md5sum" | cut -d' ' -f1)
             currenttime=$(date +%s)
             datetime=$(($currenttime - 86400))
             id=$(sha256sum $file_path | awk '{ print $1 }')
