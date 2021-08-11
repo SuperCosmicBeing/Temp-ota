@@ -13,7 +13,7 @@ if [ "$1" ]; then
             file_size=$(stat -c%s $file_path)
             datetime=$3
             id=$2
-            link="https://sourceforge.net/projects/derpfest/files/${device_name}/${file_name}/download"
+            link="https://tdrive.derpsakura.workers.dev/0:/${file_name}"
             echo "{" > $file_path.json
             echo "  \"response\": [" >> $file_path.json
             echo "    {" >> $file_path.json
