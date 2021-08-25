@@ -1,65 +1,23 @@
-===============
-27 July 2021
-===============
-
-Date: 12 August 2021
-
-Device Changelogs:
-• Added OTA support
-• Switched to OSS cam (Thanks to @GiovanniRN5 and @anorton)  
-• Made hal switcher titles easier to understand
-• Added Ambient Display Settings
-• Added Sensor Blocker in kernel
-• Camera2 is now default camera
-• Other fixes & improvements
-• See source changelogs for more
-
-Source Changelogs:
-Merged August Security Patch
-Moved battery percentage to the left side of battery icon
-Improved FOD and make it better
-Improved face unlock
-Revamped the Settings UI
-RGB Accenter added
-Added a host of volume panels
-Introduce Android S Clock
-Add CPU Info and FPS Info overlay
-Lockscreen weather improvements
-Removed IORAP and Zygote
-Switch to Hastebin to upload crash logs
-Added LiveDisplay Support
-Added anti-flicker tile
-Reboot/Recovery QS Tile added
-Improvements to FOD and screenshot options
-Added QS Header and Customizations
-Opacity added to power menu, QS and notification background
-Added Qs Header size
-Redesigned media player to s style
-Add simple fade filter to the media artwork
-Improve volumedialog implementation
-Improve Qs panel Replace media notification background with artwork
-Add Android 12 shapeshift clock
-Added back theme utils
-Added Pulse Music Visualizer
-Added support for Signature Spoofing
-Add new QS Headers
-Add toggle to hide lock icon on lockscreen
-Introduce Keyguard Weather Styles
-Added Previews for FOD, Themes, Fonts
-Added AboutBliss
-Several under-the-hood optimizations
 
 
-We also fixed the following bugs:
 
-Fixed battery text view
-Fixed NavBar Styles
-Fixed AppLock issues
-Fixed 3 finger screenshot bug
-Fixed S clocks
-Fixed Settings scrolling bug
-Fix qs footer and media layout
-Miscellaneous fixes
+
+Date: 25 August 2021
+
+Add Gaming Mode
+Introduce a variety of Brightness Slider Styles
+Add 3 mode display cutout handler
+Add Custom Rounded Corner preference
+Add an option to record for longer in screen recording
+Introduce automated Sleep Mode
+Make popup menus more rounded
+Build LiveWallpaper
+Implement HideAppFromRecents (HAFR) Settings
+Add ability to only show Launcher Apps
+Add RGB accent presets 3.0
+Fix scrolling bug when opening settings
+Add Hotspot client manager
+Misc under-the-hood bug fixes and stability improvements
 
 Bugs:
 - Encryption doesn't work
