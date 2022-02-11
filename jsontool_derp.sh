@@ -1,4 +1,5 @@
 #!/bin/bash
+
 GREEN="\033[1;32m"
 YELLOW="\033[1;33m"
 NC="\033[0m"
@@ -23,7 +24,7 @@ if [ "$1" ]; then
             echo "     \"romtype\": \"Official\"," >> $file_path.json
             echo "     \"size\": ${file_size}," >> $file_path.json
             echo "     \"url\": \"${link}\"," >> $file_path.json
-            echo "     \"version\": \"11\"" >> $file_path.json
+            echo "     \"version\": \"12\"" >> $file_path.json
             echo "    }" >> $file_path.json
             echo "  ]" >> $file_path.json
             echo "}" >> $file_path.json
@@ -34,3 +35,8 @@ if [ "$1" ]; then
         fi
     fi
 fi
+
+
+#1st arg - rom file
+#2 - md5/sha256
+#3 - datetime
